@@ -1,0 +1,43 @@
+*
+h1
+{
+    margin: 2px;
+    padding: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-image: url(../photoGrid_1613311526635.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+}
+
+ul
+{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+    list-style-type: square;
+    line-break: inherit;
+    word-spacing: 30px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(82, 2, 2);
+    padding: 10px 20px;
+    border: 1px solid black;
+    transition: o.6s;
+}
+ul li a:hover{
+    background-color: rgb(43, 28, 5);
+    color: black;
+}
+ul li.active a{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+
